@@ -7,7 +7,7 @@ BROKER_URL="nats://172.17.0.1:4222"
 ENDPOINT='polarization_controller'
 HWP_ADDR="/dev/ttyUSB0"
 QWP_ADDR="/dev/ttyUSB1"
-
+DRIVER_TYPE="kenesis"
 
 # Stop and remove any running container with the same name
 echo "Stopping and removing existing container (if any)..."
